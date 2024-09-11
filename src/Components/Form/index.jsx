@@ -8,7 +8,7 @@ const Form = ({ weatherMethod }) => {
       <Box className={styles.form}>
         <TextField
           label="enter the City"
-          variant="outlined"
+          variant="filled"
           type="text"
           placeholder="City"
           name="city"
