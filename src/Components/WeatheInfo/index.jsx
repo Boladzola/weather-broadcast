@@ -56,7 +56,7 @@ const WeatherInfo = () => {
               </Box>
               <Box className={styles.box}>
                 <Typography>
-                  Pressure: {currentData.main.pressure} mm
+                  Pressure: {currentData.main.pressure}  hPa 
                 </Typography>
               </Box>
               <Box className={styles.box}>
