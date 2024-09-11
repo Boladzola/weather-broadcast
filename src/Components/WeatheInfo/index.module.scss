@@ -1,0 +1,39 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(215, 219, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(3, 22, 129);
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.weatherData {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 1rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid rgb(98, 0, 255);
+    padding: 10px;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+}
